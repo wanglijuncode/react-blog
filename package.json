@@ -1,0 +1,22 @@
+{
+  "name": "react-material-blog-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon ./app.js",
+    "pro": "NODE_ENV=production nodemon ./app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "connect-mongo": "2.0.1",
+    "cookie-parser": "1.4.3",
+    "debug": "2.6.3",
+    "express-session": "1.15.4",
+    "formidable": "1.1.1",
+    "mongodb": "2.2.34",
+    "mongoose": "5.0.4",
+    "morgan": "1.8.1",
+    "nodemon": "1.14.11",
+    "shortid": "2.2.8"
+  }
+}
